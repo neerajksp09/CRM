@@ -13,7 +13,7 @@ function Login() {
       e.preventDefault();
       const admin ={username,password};
       console.log("username",admin)
-    const res = await axios.post('http://localhost:5000/admin/log',admin)
+    const res = await axios.post('https://crm-xwea.onrender.com/admin/log',admin)
      if(res.data.msg=="Success"){
         toast.success('Login SuccessFullly')
         localStorage.setItem(res.data.role, res.data.id);
