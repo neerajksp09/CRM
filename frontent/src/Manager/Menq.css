@@ -1,0 +1,47 @@
+:root{
+    --orange:rgb(244, 117, 1);
+    --background:rgb(231, 236, 240);
+    --light-gray:rgb(248, 248, 248);
+    --bluesh:rgb(236, 245, 248);
+}
+.menq-row{
+    background-color: var(--background);
+}
+.menq-con{
+    background-color: white;
+    border-radius: 10px ;
+}
+.menq-num:nth-child(1) h2{
+    color: dimgray;
+}
+.menq-num:nth-child(2) h2{
+    color: rgb(86, 199, 141);
+}
+.menq-num:nth-child(3) h2{
+    color: var(--orange);
+}
+.enq-form-sec form{
+  background-color: white;
+  border-radius: 10px;
+}
+.menq-btn-row select{
+ background-color: rgb(240, 240, 240);
+ border: 2px  solid black;
+}
+.m-enq-table{
+    background-color: white;
+    border-radius:10px ;
+}
+
+.enq-table-head th{
+ border-left: 1px solid dimgray;
+ border-right: 1px solid dimgray ;
+ border-bottom: 1px solid dimgray;
+  padding: 10px;
+  background-color: rgb(231, 236, 240);
+}
+.enq-table-body td{
+ border-left: 1px solid dimgray;
+ border-right: 1px solid dimgray ;
+ padding-top: 20px !important;
+}

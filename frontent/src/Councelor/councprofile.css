@@ -1,0 +1,9 @@
+.changeprofile-bg{
+    height: 88vh;
+
+    /* background-color: black; */
+    background-image: url(../assets/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,553 @@
+:root{
+    --orange:rgb(244, 117, 1);
+    --background:rgb(231, 236, 240);
+    --light-gray:rgb(248, 248, 248);
+    --bluesh:rgb(236, 245, 248);
+}
+
+/* home page css */
+.home-nav-row{
+    background: linear-gradient(to right, rgb(244, 117, 1),rgb(250, 168, 92));
+    border-radius: 0px 0px 30px 30px;
+}
+
+.img-cont img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px dashed white;
+}
+.home-nav-left{
+    display: flex;
+    justify-content: center;
+
+}
+.home-nav-left h5{
+  font-weight: 900; 
+}
+.home-nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav-text{
+    border: 2px dashed white;
+}
+.form-section-row{
+    background-color: var(--background);
+}
+.form-section{
+    border-radius: 20px;
+    background-color: white;
+    border-top: 5px solid var(--orange);
+}
+.form-section-left i{
+    color: var(--orange);
+}
+.form-card{
+    border: 2px dashed var(--orange);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    
+}
+.form-card p{
+    margin-bottom: 5px;
+    
+}
+.form-card:hover{
+   transform:translateY(-5px) scaleY(1.025);
+   box-shadow: 1px 1px 10px ;
+}
+.equiry-form{
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.equiry-form h2{
+    color: var(--orange);
+    font-weight: 700;
+}
+.equiry-form label{
+    color: gray;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.enq-sec{
+    background-color: var(--light-gray) ;
+    border-bottom: 1px solid dimgray;
+}
+.enq-sec .input-box{
+    border-radius: 0px;
+    border: 2px dashed var(--orange);
+    padding: 8px 16px;
+}
+.enq-sec select{
+   border: none;
+   background-color: var(--light-gray);
+}
+.enq-sec select:focus {
+   border: none;
+   box-shadow: none;
+   background-color: var(--light-gray);
+}
+.visitor-form h5{
+    width: fit-content;
+    background-color: rgba(244, 117, 1,0.1);
+    color: var(--orange);
+    padding: 10px;
+    border-radius: 20px;
+}
+.visitor-form .input-box{
+    border: 2px dashed var(--orange);
+    border-radius: 0px; 
+    padding: 10px;
+}
+.visitor-form input,.visitor-form select{
+   border: none;
+}
+.visitor-form input:focus,.visitor-form select:focus{
+   border: none;
+   box-shadow: none;
+
+}
+.visitor-form button{
+    background: linear-gradient(to right, rgb(244, 117, 1),rgb(250, 168, 92));
+    color: white;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+.visitor-form button:hover{
+    transform: scaleY(1.02) translateY(-5px);
+    box-shadow: 1px 1px 10px rgb(250, 168, 92);
+}
+.footer-col{
+    color: dimgray;
+}
+
+
+
+
+
+/* login page css */
+.login-row{
+    background-color: rgb(255, 250, 247);
+    height: 100vh;
+}
+.login-form{
+    height: 70vh;
+    width: 45vh;
+    background-color: white;
+    border-radius: 20px;
+   border: 1px solid dimgrey;
+   border-top: 5px solid var(--orange);
+   box-shadow: 1px 1px 30px rgb(207, 203, 203);
+}
+.logo-cont img{
+    height: 100px ;
+    width: 100px;
+    border: 3px solid var(--orange);
+    border-radius: 50%;
+   
+}
+.logo-cont h5{
+    font-weight: bolder;
+}
+.input-section{
+    position: relative;
+}
+.input-section label{
+    color: black;
+    font-weight: 500;
+}
+.input-section input{
+   border: 1px solid rgb(217, 215, 215);
+}
+.input-section input:focus{
+    box-shadow: 1px 1px 10px rgba(244, 117, 1,0.5);
+   outline: 4px solid rgba(244, 117, 1,0.4);
+    border: 1px solid rgb(217, 215, 215);
+}
+.input-section>i{
+    position: absolute;
+    top: 56%;
+    right: 5%;
+    cursor: pointer;
+}
+.input-section button {
+    background-color: var(--orange);
+    transition: all 0.3s ease;
+}
+.input-section button:hover {
+    background-color: var(--orange);
+    box-shadow: 1px 1px 10px var(--orange) ;
+    transform: translateY(-3px);
+
+}
+.form-footer{
+    background-color: rgb(255, 246, 239);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    
+}
+.form-footer strong{
+    color: var(--orange);
+}
+.dash-row{
+    background-color: rgb(240, 245, 249);
+}
+.nav-row{
+    background-color: white;
+    border-radius: 10px;
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left .offcanvas-header img{
+    height: 100px;
+    width: 100px;
+}
+.nav-left .offcanvas-body ul{
+    list-style: none;
+}
+.nav-left .offcanvas-body ul li{
+   padding: 10px 0px;
+}
+/* .navtag .offcanvas-body button{
+     background-color: var(--orange);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+} */
+.nav-right img{
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+}
+.complete-report{
+    background-color: white;
+    border-radius: 5px;
+}
+.complete-report select{
+  padding: 0px 5px ;
+  width: 150px !important;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+
+.complete-report input{
+  padding: 0px 5px ;
+  width: 200px !important;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+.report-btn button:nth-child(1){
+    background-color: var(--orange) !important;
+    color: white;
+}
+.report-btn button:nth-child(1):hover{
+    background-color: var(--orange) !important;
+    color: white;
+    
+}
+.report-btn button:nth-child(2){
+  border: none;
+}
+.report-btn button:nth-child(2):hover{
+ border: none;
+    
+}
+.admin-welcome-left,.admin-welcome-right{
+    background-color: white;
+    border-radius: 5px;
+}
+.leads,.today{
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+.inq-box{
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+.today button{
+    background-color: var(--orange);
+    color: white;
+}
+.today button:hover{
+    background-color: var(--orange);
+    color: white;
+}
+.overview-box{
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 30px whitesmoke;
+    border-radius: 8px;
+}
+.overview-box span{
+    color: red;
+    font-weight:bolder;
+}
+.center-card{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    max-height: 80vh;
+}
+.center-card .l{
+    width: 50%;
+    float: left;
+}
+.center-card .r{
+    width: 50%;
+    float: right;
+}
+.center-card .r-circle{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 244, 246);
+    border-radius: 50%;
+}
+.num-box{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.center-card button:nth-child(1){
+    background-color: var(--orange);
+    color: white;
+}
+.center-card button:nth-child(1):hover{
+    background-color: var(--orange);
+    color: white;
+}
+.center-card button:nth-child(2){
+   border: 1px solid whitesmoke;
+   color: dimgrey;
+   font-weight:600;
+}
+.center-container{
+    background-color: var(--bluesh);
+}
+.center-form form{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+}
+.center-form form input:focus,.center-form form select:focus{
+box-shadow: none;
+border: 1px solid gray;
+}
+.center-form>form .btn{
+    background-color: var(--orange);
+    height: 50px !important;
+    margin-top: 30px;
+    color: white;
+    border: none;
+}
+.center-table-scroll{
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+.center-table input{
+    height: 45px;
+    width: 240px;
+}
+.center-table select{
+    background-color:rgb(240, 240, 240);
+    border: 2px solid  black;
+}
+.center-table table{
+    width: 100%;
+    background-color: white;
+    border: none;
+    
+}
+.center-table table td,th{
+  padding: 10px 20px;
+  border-left: 2px solid dimgray;
+   border-right: 2px solid dimgray;
+}
+.center-table table th{
+  background-color: rgb(240, 245, 249);
+  border-bottom: 2px solid dimgray;
+}
+
+.m-enq-table{
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+
+/* .center-table-scroll button:nth-child(1){
+    background-color: rgb(252, 192, 116);
+    color: white;
+     padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    border: none;
+    border-radius: 5px ;
+}
+.center-table-scroll button:nth-child(2){
+    background-color: rgb(248, 155, 122);
+    color: white;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10px 20px;
+    border: none;
+    border-radius: 5px ;
+} */
+.btn-td{
+    display: flex;
+    gap: 10px;
+}
+.center-table{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.table-down-text{
+    border-top: 1px solid dimgray;
+    margin-top: 10px;
+}
+.table-down-text button{
+    background-color: white ;
+    border: none;
+    color: black;
+}
+.table-down-text span{
+    padding: 10px 20px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid gray;
+}
+.center-footer strong{
+    color: var(--orange);
+}
+.center-status{
+    padding: 12px 20px;
+    background-color: rgb(77, 207, 139);
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+.User-Assign-center{
+    background-color: rgb(231, 236, 240);
+}
+
+/* view visitor css */
+.view-visitors-row{
+    background-color: rgb(240, 245, 249);
+}
+.view-visitors-row table{
+    background-color: white;
+}
+.view-visitors-row table th{
+    border: 2px solid rgb(231, 236, 240);
+    padding: 20px !important;
+}
+.view-visitors-row table td{
+    border: 2px solid rgb(231, 236, 240);
+    padding: 20px !important;
+}
+.view-visitors-col{
+    height: 80vh;
+    overflow-y: scroll;
+}
+.view-visitors-row p>strong{
+    color: var(--orange);
+}
+
+/* add enq section */
+.add-enq-row{
+    background-color: var(--background) ;
+}
+.add-enq-row form{
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.add-enq-row form input,.add-enq-row form select{
+    height: 50px !important;
+    border: none;
+}
+.add-enq-row form input:focus,.add-enq-row form select:focus{
+    background-color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.add-enq-row form .inp-sec{
+    border: 1px solid dimgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.add-enq-row form button{
+    background-color: rgb(95, 96, 240);
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+.add-enq-row footer>p>strong{
+  color: var(--orange);
+}
+/* visitor section */
+.visitor-row{
+    background-color: var(--background);
+
+}
+.visitor-table{
+    max-height: 60vh;
+    overflow-y: scroll
+}
+.visitor-table table th,.visitor-table table td{ 
+   padding: 30px;
+   border: 2px solid rgb(221, 221, 221);
+}
+.visitor-row footer>p>strong{
+    color: var(--orange);
+}
+
+/* Arrow remove */
+.no-arrow::after {
+  display: none !important;
+}
+
+/* Border remove */
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+  border: none !important;
+ 
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+  background-color: white !important;
+  color: white;
+}
+
+.accordion-body {
+  border: none !important;
+  
+}
+
+/* nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+} */
